@@ -1,0 +1,75 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .description {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .uploadSection {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .uploadLabel {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #0070f3;
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .uploadInput {
+    display: none;
+  }
+  
+  .selectedImage {
+    margin-top: 1rem;
+  }
+  
+  .resultSection {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imageTextWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 100%; /* Ensure the wrapper takes the full width */
+  }
+  
+  .processedImage {
+    width: 300px; /* Adjust image width as needed */
+    margin: 0 20px; /* Adds space between text and image */
+  }
+  
+  .textLeft, .textRight {
+    flex: 1; /* Each text block takes up equal space around the image */
+    padding: 0 10px; /* Optional padding for better text spacing */
+  }
